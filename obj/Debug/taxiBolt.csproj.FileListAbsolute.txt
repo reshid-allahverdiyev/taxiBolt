@@ -1,0 +1,17 @@
+C:\Users\user\Desktop\Program10\Projects\taxiBolt\bin\Debug\taxiBolt.exe.config
+C:\Users\user\Desktop\Program10\Projects\taxiBolt\bin\Debug\taxiBolt.exe
+C:\Users\user\Desktop\Program10\Projects\taxiBolt\bin\Debug\taxiBolt.pdb
+C:\Users\user\Desktop\Program10\Projects\taxiBolt\obj\Debug\taxiBolt.csprojAssemblyReference.cache
+C:\Users\user\Desktop\Program10\Projects\taxiBolt\obj\Debug\taxiBolt.Properties.Resources.resources
+C:\Users\user\Desktop\Program10\Projects\taxiBolt\obj\Debug\taxiBolt.csproj.GenerateResource.cache
+C:\Users\user\Desktop\Program10\Projects\taxiBolt\obj\Debug\taxiBolt.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Program10\Projects\taxiBolt\obj\Debug\taxiBolt.exe
+C:\Users\user\Desktop\Program10\Projects\taxiBolt\obj\Debug\taxiBolt.pdb
+C:\Users\user\Desktop\Program10\Projects\taxiBolt\obj\Debug\taxiBolt.frmLogin.resources
+C:\Users\user\Desktop\Program10\Projects\taxiBolt\obj\Debug\taxiBolt.frmAdminPanel.resources
+C:\Users\user\Desktop\Program10\Projects\taxiBolt\obj\Debug\taxiBolt.frmCarAdd.resources
+C:\Users\user\Desktop\Program10\Projects\taxiBolt\obj\Debug\taxiBolt.frmDriverAdd.resources
+C:\Users\user\Desktop\Program10\Projects\taxiBolt\obj\Debug\taxiBolt.frmAdminAdd.resources
+C:\Users\user\Desktop\Program10\Projects\taxiBolt\obj\Debug\taxiBolt.frmOrderAdd.resources
+C:\Users\user\Desktop\Program10\Projects\taxiBolt\obj\Debug\taxiBolt.frmOrderModify.resources
+C:\Users\user\Desktop\Program10\Projects\taxiBolt\obj\Debug\taxiBolt.frmOrderRaport.resources

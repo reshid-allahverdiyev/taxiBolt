@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1659A9AB-111F-4369-98C5-397D4D64444C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>taxiBolt</RootNamespace>
+    <AssemblyName>taxiBolt</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmAdminAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdminAdd.Designer.cs">
+      <DependentUpon>frmAdminAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCarAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCarAdd.Designer.cs">
+      <DependentUpon>frmCarAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDriverAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDriverAdd.Designer.cs">
+      <DependentUpon>frmDriverAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdminPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdminPanel.Designer.cs">
+      <DependentUpon>frmAdminPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOrderAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOrderAdd.Designer.cs">
+      <DependentUpon>frmOrderAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOrderModify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOrderModify.Designer.cs">
+      <DependentUpon>frmOrderModify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOrderRaport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOrderRaport.Designer.cs">
+      <DependentUpon>frmOrderRaport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GridViewDesignClass.cs" />
+    <Compile Include="Interval.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SqlConnect.cs" />
+    <Compile Include="updateData.cs" />
+    <EmbeddedResource Include="frmAdminAdd.resx">
+      <DependentUpon>frmAdminAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdminPanel.resx">
+      <DependentUpon>frmAdminPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCarAdd.resx">
+      <DependentUpon>frmCarAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDriverAdd.resx">
+      <DependentUpon>frmDriverAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOrderAdd.resx">
+      <DependentUpon>frmOrderAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOrderModify.resx">
+      <DependentUpon>frmOrderModify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOrderRaport.resx">
+      <DependentUpon>frmOrderRaport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\vision-icon-18.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-computer-icons-eye-hiding-5adf75b5bc4db6.7215864415245941017713.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
